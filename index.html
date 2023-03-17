@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Registry Task</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="banner">
+        <h1>CARS REGISTRY</h1>
+    </div>
+
+    <main>
+
+        <section>
+
+            <form name="car-input-form" onsubmit="" method="post" class="input-form">
+
+                <h2>Please, add the car details:</h2>
+
+                <div class="field-area">
+                    <label for="licence">Licence</label>
+                    <input type="text" id="licence" placeholder="ABC-123" pattern="[A-Z]{3}-[0-9]{3}" required
+                        oninput="checkInput(event)">
+                </div>
+
+                <div class="field-area">
+                    <label for="maker">Maker</label>
+                    <input type="text" id="maker" placeholder="Tesla" required>
+                </div>
+
+                <div class="field-area">
+                    <label for="model">Model</label>
+                    <input type="text" id="model" placeholder="Model X" required>
+                </div>
+
+                <div class="field-area">
+                    <label for="owner">Owner</label>
+                    <input type="text" id="owner" placeholder="John Doe" required>
+                </div>
+
+                <div class="field-area">
+                    <label for="price">Price in €</label>
+                    <input type="number" id="price" placeholder="40000" required>
+                </div>
+
+                <div class="field-area">
+                    <label for="color">Color</label>
+                    <input type="text" id="color" placeholder="Silver" required>
+                </div>
+
+                <div class="add-button-wrapper">
+                    <button id="add-button">
+                        Add
+                    </button>
+                </div>
+
+            </form>
+
+            <form class="output-form">
+
+                <div class="search">
+
+                    <input type="text" id="search-box" placeholder="ABC-123" pattern="[A-Z]{3}-[0-9]{3}" required>
+
+                    <button id="search-button"> Search Table</button>
+
+                    <button id="reset">
+                        Reset Search Data
+                    </button>
+
+                    <button id="fullReset">
+                        Reset All Data
+                    </button>
+
+                </div>
+
+                <table id="output-table">
+                    <tr>
+                        <td>
+                            <p>License</p>
+                        </td>
+                        <td>
+                            <p>Maker</p>
+                        </td>
+                        <td>
+                            <p>Model</p>
+                        </td>
+                        <td>
+                            <p>Owner</p>
+                        </td>
+                        <td>
+                            <p>Original Price</p>
+                        </td>
+                        <td>
+                            <p>Color</p>
+                        </td>
+                        <td>
+                            <p>Discount</p>
+                        </td>
+                        <td>
+                            <p>Discount Ammount</p>
+                        </td>
+                        <td>
+                            <p>Final Price</p>
+                        </td>
+                    </tr>
+                </table>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&family=Love+Ya+Like+A+Sister&family=Maven+Pro:wght@400;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Kanit', sans-serif;
+    background-color: azure;
+    overscroll-behavior: none;
+    font-weight: lighter;
+    font-size: 16px;
+    background: linear-gradient(rgba(255, 255, 255, 0.911), rgba(154, 242, 234, 0.825)), url();
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://images.unsplash.com/photo-1543465077-db45d34b88a5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1965&q=80);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 1rem;
+}
+
+h1 {
+    text-align: center;
+    padding: 2rem 0 4rem 0;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 0 2px black;
+    font-weight: bold;
+    font-size: 42px;
+}
+
+h2 {
+    margin: 0rem 2rem 3rem 1rem;
+}
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.input-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    height: 65vh;
+    width: 25vw;
+    border-radius: 5px;
+}
+
+section {
+    display: flex;
+    direction: row;
+}
+
+.search {
+    padding: 1rem;
+
+}
+
+label {
+    min-width: 120px;
+    display: inline-block;
+}
+
+input {
+    padding: 0.5rem;
+    min-width: 150px;
+    height: 3vh;
+    border-radius: 0.4rem;
+    border: none;
+    background-color: rgb(220, 215, 215);
+}
+
+.field-area {
+    width: 40vw;
+    padding: 1rem;
+}
+
+.add-button-wrapper {
+    padding: 3rem 1rem 1rem 1rem;
+}
+
+#add-button,
+#search-button,
+#calculate-discount,
+#reset,
+#fullReset {
+    width: 10rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: rgb(57, 152, 121);
+    font-size: medium;
+    color: white;
+}
+
+#reset,
+#fullReset {
+    margin: 1rem;
+    background-color: rgb(4, 74, 51);
+}
+
+#search-button {
+    margin: 0 1rem 0 1rem;
+}
+
+table tr td {
+    padding: 0.3rem;
+    text-align: center;
+}
+
+table tr:nth-child(even) {
+    background-color: rgb(188, 244, 225);
+}
+
+table tr:nth-child(odd) {
+    background-color: rgb(224, 241, 236);
+}
+
+table p {
+    font-weight: bold;
+}
