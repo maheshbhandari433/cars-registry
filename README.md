@@ -1,6 +1,6 @@
 ### CAR REGISTRATION TASK
 
-## Description
+# Description
 
 As part of a school project, we built a webpage that allows the user to register vehicle information for various cars and then search through the registrations using licence entries. The information is stored and displayed on a table, including additonal price discounts.
 
