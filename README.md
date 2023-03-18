@@ -19,7 +19,7 @@ The project was completed by three persons.
 [Car Registry](https://public.bc.fi/s2300106/cars_registry/)
 
 # Instructions:
-1) Please enter the data requested on the table on the left side of the screen:
+1) Please enter the data requested on the form on the left side of the screen:
 - Licence
 - Maker
 - Model
@@ -34,9 +34,9 @@ The project was completed by three persons.
 - 15% discount if the car value is between 5 000€ and 20 000€
 - 10% discount if the car value is under 5 000€
 
-4) Create new more car registrations, so the table can be filled with more entries. Adding again an already registered licence is prevented, so the licences being added need to be different, other data however can be repeated
+4) Create more car registrations, so the table can be filled with more entries. Adding again an already registered licence is prevented, so new licences being added need to be different from one another, however other type of data can be repeated.
 
-5) Search for a praticular licence by using the search field and button. The table will display only the matching car data
+5) Search for a particular licence by using the search field and button. The table will display only the matching car data
 
 6) To clear your search, you can click "Reset Search" and the table will display all data in full again. To clear all stored data in the table, you may click "Reset Table"
 
