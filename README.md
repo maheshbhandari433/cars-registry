@@ -1,6 +1,6 @@
-### CAR REGISTRATION TASK
+# CAR REGISTRATION TASK
 
-# Description
+## Description
 
 As part of a school project, we built a webpage that allows the user to register vehicle information for various cars and then search through the registrations using licence entries. The information is stored and displayed on a table, including additonal price discounts.
 
@@ -8,17 +8,17 @@ The project was completed by three persons.
 
 ![alt text](https://github.com/hiphip12/cars_task/blob/main/images/Screenshot_webpage.png)
 
-# Languages:
+## Languages:
 
 - HTML
 - CSS
 - Javascript
 
-# Live page:
+## Live page:
 
 [Car Registry](https://public.bc.fi/s2300106/cars_registry/)
 
-# Instructions:
+## Instructions:
 1) Please enter the data requested on the form on the left side of the screen:
 - Licence
 - Maker
