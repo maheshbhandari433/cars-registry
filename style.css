@@ -19,6 +19,7 @@ body {
 }
 
 .banner {
+    background-color: rgb(37, 82, 82);
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://images.unsplash.com/photo-1543465077-db45d34b88a5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1965&q=80);
     background-position: center;
     background-repeat: no-repeat;
