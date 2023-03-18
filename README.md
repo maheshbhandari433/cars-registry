@@ -6,7 +6,7 @@ As part of a school project, we built a webpage that allows to register car vehi
 
 The project was completed by three persons.
 
-![alt text](https://github.com/hiphip12/cars_task/blob/main/images/Screenshot_page.png)
+![alt text](https://github.com/hiphip12/cars_task/blob/main/images/Screenshot_webpage.png)
 
 # Languages:
 
