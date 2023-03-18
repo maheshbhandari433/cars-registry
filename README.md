@@ -20,20 +20,20 @@ The project was completed by three persons.
 
 # Instructions:
 1) Please enter the data requested on the table on the left side of the screen:
-        - Licence
-        - Maker
-        - Model
-        - Owner
-        - Price in €
-        - Color
+- Licence
+- Maker
+- Model
+- Owner
+- Price in €
+- Color
 
 2) Press "Add"
 
 3) The data will display on a table on the right side of the screen, including additional discount information based on:
-        - 20% discount if the car value is over 20 000€
-        - 15% discount if the car value is between 5 000€ and 20 000€
-        - 10% discount if the car value is under 5 000€
-        
+- 20% discount if the car value is over 20 000€
+- 15% discount if the car value is between 5 000€ and 20 000€
+- 10% discount if the car value is under 5 000€
+
 4) Create new more car registrations, so the table can be filled with more entries. Adding again an already registered licence is prevented, so the licences being added need to be different, other data however can be repeated
 
 5) Search for a praticular licence by using the search field and button. The table will display only the matching car data
